@@ -1,10 +1,10 @@
 # Análisis de Sentimiento (Reto Enseña x Oracle España, reto 2)
-Este repositorio contiene el código necesario para entrenar y utilizar un modelo de análisis de sentimiento basado en el modelo BERT (Bidirectional Encoder Representations from Transformers).
+Este repositorio contiene el código necesario para entrenar y utilizar un modelo de análisis de sentimiento basado en el modelo BERT [bert-base-uncased](https://huggingface.co/bert-base-uncased) (Bidirectional Encoder Representations from Transformers), y utilizando la librería [transformers](https://huggingface.co/transformers/).
 
-El objetivo principal del modelo es predecir si una reseña de un producto es positiva o negativa. El modelo ha sido reentrenado con el dataset proporcionado por el Reto Enseña x Oracle España, reto 2.
+El objetivo principal del modelo es predecir si una reseña de un producto es positiva o negativa. El modelo ha sido reentrenado con el dataset proporcionado por el [Reto Enseña x Oracle España](https://nuwe.io/dev/competitions/reto-ensena-oracle-espana).
 
 ## Uso
-El código está diseñado para ejecutarse en Google Colab. Para utilizarlo, es necesario clonar el repositorio y abrir el notebook `analisisDeSentimiento.ipynb` en Colab.
+El código está diseñado para ejecutarse en Google Colab. Para utilizarlo, es necesario clonar el repositorio y abrir el notebook `analisisDeSentimiento.ipynb` en [colab](https://colab.research.google.com/).
 
 El notebook consta de dos partes principales: entrenamiento e inferencia. En la sección de entrenamiento, se carga el dataset y se entrena el modelo. En la sección de evaluación, se cargan los datos de prueba y se evalúa el modelo en ellos.
 
